@@ -13,13 +13,17 @@
 <div class="calculator">
 
     <div class="display">
+        
+        <p class="currentEntry">0</p>
         <p class="equation"></p>
-        <p class="result"></p>
+
     </div>
     <div class="container">
-    <div class="clear-buttons"> 
-        <button class="clearButton">AC</button>
-        <button class="deleteButton">C</button>
+    <div class="topRow"> 
+        <button id="clear">AC</button>
+        <button id="delete">C</button>
+        <button id="negative">+/-</button>
+        <button class="operatorButton" id="plus">+</button>
     </div>
     <div class="button-container">
 
@@ -27,22 +31,23 @@
         <button class="numButton">1</button>
         <button class="numButton">2</button>
         <button class="numButton">3</button>
-        <button class="opButton" >+</button>
+        <button class="operatorButton" id="minus">-</button>
         <button class="numButton">4</button>
         <button class="numButton">5</button>
         <button class="numButton">6</button>
-        <button class="opButton">-</button>
+        <button class="operatorButton" id="divide">&#247;</button>
         <button class="numButton">7</button>
         <button class="numButton">8</button>
         <button class="numButton">9</button>
-        <button class="opButton">*</button>
-        <button class="decimal">.</button>
-        <button class="numButton">0</button>
-        <button class="evalButton">=</button>
-        <button class="opButton">/</button>
-        
-       
+        <button class="operatorButton" id="multiply">x</button>
 
+
+    </div>
+
+    <div class="bottomRow">
+        <button class="numButton">0</button>
+        <button id="point">.</button>
+        <button id="equals">=</button>
     </div>
 </div>
 
